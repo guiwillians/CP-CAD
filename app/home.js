@@ -29,21 +29,11 @@ export default function HomeScreen() {
 
        <TouchableOpacity style={styles.card} onPress={() => router.push('/kitchenette')}>
             <Text style={styles.cardIcon}>🍔</Text>
-            <Text style={styles.cardTitle}>Cantina Express</Text>
+            <Text style={styles.cardTitle}>kitchenette</Text>
         </TouchableOpacity>
        <TouchableOpacity style={styles.card} onPress={() => router.push('/labs')}>
             <Text style={styles.cardIcon}>💻</Text>
             <Text style={styles.cardTitle}>Reservar Labs</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.card} onPress={() => {/* Futura navegação */}}>
-          <Text style={styles.cardIcon}>📚</Text>
-          <Text style={styles.cardTitle}>Biblioteca</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.card} onPress={() => {/* Futura navegação */}}>
-          <Text style={styles.cardIcon}>⚙️</Text>
-          <Text style={styles.cardTitle}>Meu Perfil</Text>
         </TouchableOpacity>
 
       </View>
